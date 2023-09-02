@@ -14,14 +14,14 @@ Pre-processing data pipeline
 Model code
 -  The model requires a csv file which includes the filenames different sources.
 - The model requires folder structure:
---------------ghgsat
--------------------observation1
--------------------observationn
---------------sentinel-2
--------------------observation1
--------------------observationn
---------------sentinel-5P
--------------------observation1
--------------------observationn
+- --------------ghgsat
+- -------------------observation1
+- -------------------observationn
+- --------------sentinel-2
+- -------------------observation1
+- -------------------observationn
+- --------------sentinel-5P
+- -------------------observation1
+- -------------------observationn
 
 L. Scheibenreif, M. Mommert and D. Borth, "Toward Global Estimation of Ground-Level NO2 Pollution With Deep Learning and Remote Sensing," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2022, Art no. 4705914, doi: 10.1109/TGRS.2022.3160827.
