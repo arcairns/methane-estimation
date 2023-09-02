@@ -3,7 +3,7 @@ This project uses remote sense data for a pixel-wise problem to estimating metha
 
 Pre-processing data pipeline
 - This code allows you to download Sentinel-5P and Sentinel-2 data, crop, resample and apply data augmentation.
-- GHGSat data was made available through ESA's EarthNet project (https://earth.esa.int/eogateway/news/ghgsat-data-now-available-through-esa-s-earthnet-programme). This cannot be made available on request and would require a separate project proposal to gain access.
+- GHGSat data was made available through ESA's EarthNet project (https://earth.esa.int/eogateway/news/ghgsat-data-now-available-through-esa-s-earthnet-programme). The GHGSat data cannot be made available on request and would require a separate project proposal to gain access.
 - The folder structure is:
 - ------- location1
 - ------------observation1
