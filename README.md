@@ -1,5 +1,5 @@
 # methane-estimation
-This project uses remote sense data for a pixel-wise problem to estimating methane. This expands on a study by Scheibenreif, Mommert and Borth (2022) by outputting dense gas predictions from the model, investigating dissertation architectures and parameters, and implemented a U-Net architecture. 
+This project uses remote sense data for a pixel-wise problem to estimating methane. This expands on a study by Scheibenreif, Mommert and Borth (2022) by outputting dense gas predictions from the model, investigating dissertation architectures and parameters, and implemented a U-Net architecture. This is a MSc dissertation project at the University of Bath. 
 
 Pre-processing data pipeline
 - This code allows you to download Sentinel-5P and Sentinel-2 data, crop, resample and apply data augmentation.
