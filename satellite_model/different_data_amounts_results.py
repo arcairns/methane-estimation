@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 import numpy as np
 
-base_path = "/Users/amycairns/Desktop/Global-NO2-Estimation-main"
+base_path = "p"
 
 #create csvs for each different amount from random stations
 all_stations = pd.read_csv(os.path.join(base_path, "data", "samples_S2S5P_2018_2020_epa_91.csv"))
