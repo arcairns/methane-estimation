@@ -18,7 +18,7 @@ for run in range(10):
         stations.to_csv(os.path.join(base_path, "data", "runsFromScratch", "samples_S2S5P_2018_2020_epa"+"_run_"+str(run)+"_amount_"+str(amount)+".csv"))
 
     
-args = glob("/Users/amycairns/Desktop/Global-NO2-Estimation-main/data/runsFromScratch/*.csv")
+args = glob("path/data/runsFromScratch/*.csv")  *** path needed ***
 
 for arg in args:
     file_end = str(arg.split("_")[6])+"_"+str(arg.split("_")[8])
@@ -32,7 +32,7 @@ for arg in args:
     
         
 # plot the result depending on data size
-results = glob("/Users/amycairns/Desktop/Global-NO2-Estimation-main/satellite_model/results/test_*.csv")
+results = glob("path/satellite_model/results/test_*.csv") *** path needed ***
 
 result_df = []
 
